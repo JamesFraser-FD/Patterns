@@ -16,9 +16,11 @@ public class Main {
 
         Pizza pizza = chef.getMargharita();
         System.out.println(pizza);
+        // Output: Tomato base with cheese.
 
         pizza = chef.getAmericanHot();
         System.out.println(pizza);
+        // Output: Tomato base with cheese, pepperoni, jalapenos.
     }
 
 }
