@@ -91,6 +91,9 @@ public class Pizza {
         this.hasJalapenos = builder.hasJalapenos;
     }
 
+    /*
+    You don't need this for most builders but it makes the example output nicer
+     */
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
