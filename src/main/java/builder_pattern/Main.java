@@ -6,7 +6,7 @@ public class Main {
         /*
         Using PizzaChef allows you to prevent using massive constructors that aren't readable.
         For example:
-        Pizza margharita = new Pizza(true, false, true, false, false, false, false, false, false, false, false, false);
+        Pizza margherita = new Pizza(true, false, true, false, false, false, false, false, false, false, false, false);
         Adding more toppings/sauces also makes these constructors even bigger.
 
         Using a pizza chef you only need to add one line.
@@ -14,7 +14,7 @@ public class Main {
          */
         PizzaChef chef = new PizzaChef();
 
-        Pizza pizza = chef.getMargharita();
+        Pizza pizza = chef.getMargherita();
         System.out.println(pizza);
         // Output: Tomato base with cheese.
 

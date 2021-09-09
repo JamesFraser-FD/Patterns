@@ -2,7 +2,7 @@ package builder_pattern;
 
 public class PizzaChef {
 
-    public Pizza getMargharita() {
+    public Pizza getMargherita() {
         return new Pizza.Builder()
                 .withTomatoSauce()
                 .withCheese()
